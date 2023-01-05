@@ -53,7 +53,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transform: translateY(80px);
+    transform: translateY(100px);
 }
 .title::after{
     content: '';
@@ -63,8 +63,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    transform: translateY(-620px);
+    transform: translateY(-600px);
 }
+
 .titre{
     padding-top: 100px;
     font-weight: 600px;
@@ -150,9 +151,7 @@ button{
     margin: 0 10px;
 }
 .matrimonials{
-    height: 700px;
-    padding-bottom: 50px;
-    padding-top: 50px;
+  margin: 100px 0;
 }
 .matrimonial{
     border-left: 4px solid #7b1798;
@@ -230,6 +229,9 @@ button{
     border: none;
     border-radius: 0;
     margin-top: 30px;
+}
+.foot-image{
+    width: 100%;
 }
 hr{
     background-color: #fff;
